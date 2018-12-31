@@ -396,4 +396,8 @@ typedef unsigned long long	vluint64_t;	///< 64-bit unsigned type
 
 //=========================================================================
 
+#ifdef KORE_G1
+void kore_printf(const char* format, ...);
+#endif
+
 #endif /*guard*/
